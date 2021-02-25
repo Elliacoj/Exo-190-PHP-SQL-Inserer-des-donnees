@@ -53,7 +53,7 @@ try {
         VALUES ('titre2', '5', 'ezraerr', 'dfahuheufiazhfihuazhiuzhafeuiyg'),
                ('titre3', '7', 'ezraerr', 'dfahuheufiazhfihuazhiuzhafeuiyg')
     ";
-    $pdo->exec($produit1);
+    $pdo->exec($produit2);
 
     /**
      * 5. A l'aide des méthodes beginTransaction, commit et rollBack, insérez trois nouveaux utilisateurs dans la table utilisateur.
